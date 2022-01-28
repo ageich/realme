@@ -6,6 +6,7 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/realme/r5x
 
 PRODUCT_COPY_FILES += \
+    vendor/realme/r5x/proprietary/bin/chargeonlymode:$(TARGET_COPY_OUT_SYSTEM)/bin/chargeonlymode \
     vendor/realme/r5x/proprietary/etc/camera/Charming.cng:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/Charming.cng \
     vendor/realme/r5x/proprietary/etc/camera/M_Verify_Faster_Common_wp.model:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/M_Verify_Faster_Common_wp.model \
     vendor/realme/r5x/proprietary/etc/camera/doubleloss_large.model:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/doubleloss_large.model \
